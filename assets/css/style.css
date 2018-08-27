@@ -1,23 +1,24 @@
-@font-face {
-    font-family: kings;
-    src: url('../font/fonthaigodeeper/KingsofKingsLynn.otf');
-}
-@font-face {
-    font-family: dkdrt;
-    src: url('../font/fonthaigodeeper/DK\ Dirrrty.ttf');
-}
-@font-face {
-    font-family: gotham;
-    src: url('../font/fonthaigodeeper/Gotham-Medium.otf');
-}
+
 @font-face {
     font-family: latolight;
     src: url('../font/Lato/Lato-Light.ttf');
+}
+@font-face {
+    font-family: latoreg;
+    src: url('../font/Lato/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: latobold;
+    src: url('../font/Lato/Lato-Bold.ttf');
 }
 body{
     margin:0;
     padding:0;
     font-size:2.4vh;
+    font-family: latoreg;
+}
+p{
+    line-height: 4.5vh;
 }
 .ijo-text{
     color:#07a69b;
@@ -25,11 +26,13 @@ body{
 .oren-text{
     color:#f89a1c;
 }
+section{
+    position: relative;
+}
 .sec-cover{
     background:url('../images/cover/bg-cover.png') top center #FFF no-repeat;
     background-size:100%;
     height:1050px;
-    position: relative;
 }
 .sepatunganyuk{
     margin-top:10%;
@@ -45,7 +48,7 @@ body{
     right:9%;
 }
 .sec-1{
-    position: relative;
+    background:#FFF;
 }
 .sec1-kiri{
     position:absolute;
@@ -61,4 +64,83 @@ body{
     position:absolute;
     top:70%;
     right:0;
+}
+.sec-2{
+    background :#07a69b;
+}
+.box-unique{
+    border-radius:10px;
+    background:#1c918a;
+    padding:20px;
+    margin-top:20px;
+}
+.sec2-ornamen1{
+    position: absolute;
+    left:0;
+    top:30%;
+}
+.sec2-ornamen2{
+    position: absolute;
+    right:0;
+    top:70%;
+}
+.sec2-segitiga{
+    position: absolute;
+    left:5%;
+    top:70%;
+}
+.img{
+    padding:0;
+}
+.sec-3{
+    background:#FFF;
+}
+.box-sec3{
+    border:dashed #07a69b 2px;
+    margin-top:50px;
+    padding:20px 0;
+}
+.box-sec3-title{
+    margin-top:-50px;
+    width: 43%;
+    padding:1%;
+    border:dashed #07a69b 2px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#FFF;
+}
+.box-sec3-body{
+    padding: 20px 0;
+}
+.sec3-ornamen1{
+    position: absolute;
+    left:0;
+    top:40%;
+}
+.sec3-ornamen2{
+    position: absolute;
+    right:0;
+    top:80%;
+}
+.sec-4{
+    background:#f7961f;
+    padding:0 0 20px;
+}
+.sec-footer{
+    background:#07a69b;
+    padding:20px;
+}
+.profile{
+    margin:20px 0;
+}
+.sec-5{
+    background:#FFF;
+    padding:20px 0 20px;
+}
+.foot-title{
+    font-family:latobold;
+}
+.foot-text{
+    font-family: latolight;
+    letter-spacing: 2px;
 }
