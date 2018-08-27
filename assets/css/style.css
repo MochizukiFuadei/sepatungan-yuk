@@ -91,6 +91,7 @@ section{
 }
 .img{
     padding:0;
+    max-width: 100%;
 }
 .sec-3{
     background:#FFF;
@@ -143,4 +144,12 @@ section{
 .foot-text{
     font-family: latolight;
     letter-spacing: 2px;
+}
+.title-counter{
+    font-family: latobold;
+    letter-spacing: 2px;
+}
+.counter-box{
+    font-family: latobold;
+    margin-bottom:30px;
 }

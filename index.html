@@ -234,6 +234,24 @@
     </section>
     <section class="sec-5">
         <div class="container">
+            <div class="row center-align counter-box">
+                <div class="col l12 m12 s12">
+                    <h3 class="title-counter ijo-text">TOTAL #SEPATUNGAN</h3>
+                </div>
+                <div class="col l4 m4 s12">
+                    <h3 class="counter oren-text">564,398</h3>
+                    <div class="ijo-text">Partisipan</div>
+                </div>
+                <div class="col l4 m4 s12">
+                    <h3 class="counter oren-text">1250</h3>
+                    <div class="ijo-text">Pasang Sepatu</div>
+                </div>
+                <div class="col l4 m4 s12">
+                    <h3 class="counter oren-text">85,000,000</h3>
+                    <div class="ijo-text">Rupiah yang terkumpul</div>
+                </div>
+            </div>
+            <br><br>
             <div class="row center-align">
                 <div class="col l12 m12 s12">
                     <img src="assets/images/5/Kabar-Sepatungan-Judul.png" class="img animated wow tada">
@@ -290,7 +308,16 @@
         </div>
     </section>
     <script src="assets/js/jquery.min.js"></script>
-    
+    <script>
+            jQuery(document).ready(function( $ ) {
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            });
+          </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/materialize.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/wow.min.js"></script>
